@@ -1,0 +1,83 @@
+/* ----fonts styles---- */
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Pinyon+Script&family=Poppins:wght@500&display=swap');
+
+/* commn styles */
+body{
+    font-family: 'Love Light', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Poppins', sans-serif;
+background-color: #9F9F9F;
+}
+/* to players style */
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    
+}
+
+.Top-titel{
+    color: blue;
+    margin-left: 30px;
+}
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    
+}
+
+h3{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+hr{
+    border: 1px solid #d1d1d1;
+}
+
+/* blogs style --------------*/
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-infu{
+    margin-bottom: 110px;
+    width: 195px;
+    height: 70px;
+
+}
+.link-titel{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+}
